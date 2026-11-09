@@ -23,32 +23,8 @@ I'm building a LoRa development board to learn schematic capture, PCB layout, po
 | BOOTSEL and RESET buttons | Board control |
 
 **Verification needed:** My current schematic lists SX1261IMLTRT and 0900FM15K0039, while the Blueprint guide references an SX1262-based design and a differently numbered RF component. I need to confirm exact part numbers, pinouts, footprints, and radio compatibility before fabrication. The Y2 crystal value also needs verification.
+this is some of the porject photos:
+<img width="370" height="374" alt="Screenshot 2026-11-08 194500" src="https://github.com/user-attachments/assets/b507e28f-c36c-4b33-aeda-5cb03a30a6b9" />
+<img width="1007" height="573" alt="Screenshot 2026-11-08 183346" src="https://github.com/user-attachments/assets/ee830ced-ccd4-4cf9-85d7-6f97a4bbde50" />
+<img width="1173" height="799" alt="Screenshot 2026-11-08 133103" src="https://github.com/user-attachments/assets/c0d94474-d2bd-4b38-9957-cfe840cc54e4" />
 
-## Design progress
-
-- [x] Create KiCad schematic
-- [x] Assign footprints
-- [x] Create an initial PCB component placement
-- [ ] Verify component values and footprint selections
-- [ ] Complete routing and copper zones
-- [ ] Run and pass KiCad ERC and DRC
-- [ ] Review manufacturing files and bill of materials
-- [ ] Assemble and test the physical board
-
-## PCB design goals
-
-- Four-layer PCB stack-up
-- Keep crystal and decoupling components close to their associated ICs
-- Keep the radio-frequency routing short, with a verified controlled-impedance design
-- Make USB-C power and grounding reliable
-- Check antenna placement and clearances before manufacturing
-
-## Opening the project
-
-Install **KiCad 10**, then open the KiCad project, schematic, and PCB files after they have been uploaded to this repository. Custom symbols and footprints must also be included where required.
-
-## Credits
-
-Based on the [Hack Club Blueprint LoRa Puck starter project](https://blueprint.hackclub.com/starter-projects/lora). 
-
-See [Hardware Notes](HARDWARE_NOTES.md) for design checks and remaining work.

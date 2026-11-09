@@ -1,0 +1,11 @@
+*.lck
+*.kicad_prl
+*~
+*.bak
+*.bck
+*.tmp
+fp-info-cache
+*-backups/
+.DS_Store
+Thumbs.db
+Desktop.ini
